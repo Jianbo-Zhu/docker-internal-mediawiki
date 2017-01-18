@@ -7,11 +7,10 @@
     "php": ">=5.3.3",
     "psr/log": "1.0.0",
     "wikimedia/cdb": "1.0.1",
-    "wikimedia/composer-merge-plugin": "1.0.0",
     "wikimedia/utfnormal": "1.0.2",
     "zordius/lightncandy": "0.18",
     "cssjanus/cssjanus": "1.1.1",
-    "mediawiki/semantic-media-wiki": "~2.1",
+    "mediawiki/semantic-media-wiki": "~2.4",
     "param-processor/param-processor": "^1.2"
   },
   "autoload": {

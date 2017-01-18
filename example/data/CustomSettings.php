@@ -1,7 +1,7 @@
 <?php
 
 /***** SemanticMediaWiki and related */
-require_once "$IP/extensions/ParamProcessor/src/ParamProcessor.php";
+// require_once "$IP/extensions/ParamProcessor/src/ParamProcessor.php";
 require_once "$IP/extensions/Validator/Validator.php";
 require_once "$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php";
 require_once "$IP/extensions/SemanticForms/SemanticForms.php";

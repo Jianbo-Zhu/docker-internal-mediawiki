@@ -9,7 +9,7 @@ parsoid:
   environment:
     - MW_URL=http://wiki.company.net
 web:
-  image: milcord/internal-mediawiki
+  image: mymw
   ports:
     - 80:80
     - 443:443
