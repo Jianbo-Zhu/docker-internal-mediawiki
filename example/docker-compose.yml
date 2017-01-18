@@ -7,7 +7,7 @@ parsoid:
   ports:
     - 8000:8000
   environment:
-    - MW_URL=http://wiki.company.net
+    - MW_URL=http://35.167.88.243/
 web:
   image: mymw
   ports:
@@ -19,7 +19,7 @@ web:
     - db
     - parsoid
   environment:
-    - MEDIAWIKI_SITE_SERVER=http://wiki.company.net
+    - MEDIAWIKI_SITE_SERVER=http://35.167.88.243/
     - MEDIAWIKI_SITE_NAME=Company Internal Wiki
     - MEDIAWIKI_DB_PASSWORD=password
 
